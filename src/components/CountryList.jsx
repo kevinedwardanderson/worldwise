@@ -1,9 +1,5 @@
 import { useContext } from "react";
-import {
-  CitiesContext,
-  CitiesProvider,
-  useCities,
-} from "../contexts/CitiesContext";
+import { CitiesContext, useCities } from "../contexts/CitiesContext";
 import CountryItem from "./CountryItem";
 import styles from "./CountryList.module.css";
 import Message from "./Message";

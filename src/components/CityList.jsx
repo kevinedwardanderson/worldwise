@@ -2,11 +2,7 @@ import CityItem from "./CityItem";
 import styles from "./CityList.module.css";
 import Message from "./Message";
 import Spinner from "./Spinner";
-import {
-  CitiesContext,
-  CitiesProvider,
-  useCities,
-} from "../contexts/CitiesContext";
+import { CitiesContext, useCities } from "../contexts/CitiesContext";
 import { useContext } from "react";
 
 function CityList() {
